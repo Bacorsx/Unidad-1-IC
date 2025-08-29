@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bienvenido</title>
+    </head>
+    <body>
+        <h1>Hola {{ nombre }}</h1>
+        {% for p in productos %}
+            <p>Producto: {{ p.nombre}} - Valor: {{p.consumo}}</p>
+        {% endfor %}
+    </body>
+</html>
